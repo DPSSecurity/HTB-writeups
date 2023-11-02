@@ -12,7 +12,10 @@ Answer: `Server Message Block`
 ### **Task 2**:
 What port does SMB use to operate at?<br>
 Run:
-`nmap -v -Pn -sT -sV <IP address of machine>`
+`nmap -v -sT -sV <IP address of machine>`
+-v = verbose<br>
+-sT = TCP scan<br>
+-sV = service version number<br>
 
 SMB is a Microsoft proprietary protocol, so `microsoft-ds?` hints towards the use of SMB. This is important because the words `Server Message Block` are not listed explicitly.
 
