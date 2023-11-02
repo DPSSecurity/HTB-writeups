@@ -13,6 +13,8 @@ Answer: `File Transfer Protocol`
 Which port does the FTP service listen on usually?<br>
 Run a port scan on the machine to figure out the port number FTP runs on:
 `nmap -v -sT <IP address of machine>`<br>
+>-v = verbose<br>
+>-sT = TCP scan<br>
 
 Answer: `21`
 
@@ -28,14 +30,14 @@ Answer: `ping`
 From your scans, what version is FTP running on the target?<br>
 Run:
 `nmap -v -sT -sV <IP address of machine>`<br>
->-sV = verison number of services
+>-sV = service version number<br>
 
 Answer: `vsftpd 3.0.3`
 
 ### **Task 6:**
 From your scans, what OS type is running on the target?<br>
 Run:
-`nmap -v -sT -sV  -A <IP address of machine>`<br>
+`nmap -v -sT -sV -A <IP address of machine>`<br>
 >-A = Operating System version<br>
 
 *Notice how this scan also returns flag.txt!*
