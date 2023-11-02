@@ -8,8 +8,10 @@ This is the fourth box Hack The Box presents aspriring cybersecurity professiona
 ### **Task 1**:
 Which TCP port is open on the machine?<br>
 Run:
-`nmap -sT -p 1–65535 -vv <IP address of machine>`
->-p 1-65535 = scans the port range 1-65535 because, by default, nmap scans the top ports (0-1000) and if we only scan those ports, it'll return closed 
+`nmap -v -sT -p 1–65535 <IP address of machine>`
+>-v = verbose<br>
+>-sT = TCP scan<br>
+>-p 1-65535 = scans the port range 1-65535 because, by default, nmap scans the top ports (0-1000) and if we only scan those ports, it'll return closed<br>
 
 Answer: `6379`
 
