@@ -12,10 +12,10 @@ Answer: `Server Message Block`
 ### **Task 2**:
 What port does SMB use to operate at?<br>
 Run:
-`nmap -v -sT -sV <IP address of machine>`
--v = verbose<br>
--sT = TCP scan<br>
--sV = service version number<br>
+`nmap -v -sT -sV <IP address of machine>`<br>
+>-v = verbose<br>
+>-sT = TCP scan<br>
+>-sV = service version number<br>
 
 SMB is a Microsoft proprietary protocol, so `microsoft-ds?` hints towards the use of SMB. This is important because the words `Server Message Block` are not listed explicitly.
 
@@ -36,7 +36,7 @@ How many shares are there on Dancing?<br>
 Run: 
 `smbclient -L <IP of machine>`
 
-When prompted for the username, enter enter.<br>
+When prompted for the username, press enter.<br>
 
 Answer: `4`
 
