@@ -31,6 +31,7 @@ Run:
 `nmap -v -sT -A <IP address of machine>`
 >-v = verbose<br>
 >-sT = TCP scan<br>
+>-A = Operating System version<br>
 
 Answer: `Telnet`
 
