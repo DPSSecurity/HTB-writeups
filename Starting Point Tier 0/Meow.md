@@ -28,10 +28,9 @@ Answer: `nmap`
 ### **Task 6:**
 What service do we identify on port 23/tcp during our scans?<br>
 Run:
-`nmap -v -sT -A <IP address of machine>`
+`nmap -v -sT <IP address of machine>`
 >-v = verbose<br>
 >-sT = TCP scan<br>
->-A = Operating System version<br>
 
 Answer: `Telnet`
 
