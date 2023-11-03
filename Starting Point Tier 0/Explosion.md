@@ -2,7 +2,7 @@
 Category/Tags: Network, Programming, RDP, Reconnaissnace, and Weak Credentials
 
 ## Description:
-This is the fifth (and first VIP!) box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to connect to the machine using RDP.
+This is the fifth (and first VIP!) box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to connect to a Windows Server using RDP to obtain the flag.
 
 ## Solution:
 ### **Task 1**:
