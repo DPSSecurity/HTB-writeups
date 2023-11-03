@@ -46,8 +46,20 @@ Run:
 Answer:`-x php`
 
 ### **Task 7**:
-When using gobuster to dir bust, what switch do we add to make sure it finds PHP pages? <br>
+What page is found during our dir busting activities?<br>
 Run:
-`gobuster dir -x php`
+`gobuster dir -w /usr/share/wordlists/rockyou.txt -u <IP address of machine>` to dir bust the website. We will start with common.txt. because it's a smaller, faster wordlist.
 
-Answer:`-x php`
+Answer:`admin.php`
+
+### **Task 8**:
+What is the HTTP status code reported by Gobuster for the discovered page?<br>
+Answer:`200`
+
+### **Flag**:
+Go to the webpage by pasting the machine's IP address into your browser and adding `/admin.php` to the end of the URL.<br>
+Test a common default creds login:
+Username: `Admin`<br>
+Password: `Admin`<br>
+
+The flag is on the website after you login!
