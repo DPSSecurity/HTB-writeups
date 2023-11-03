@@ -79,5 +79,5 @@ Then, run:
 Answer: `KEYS *`
 
 ### **Flag**:
-While connect still, run:
+While connected still, run:
 `GET flag` to select and print the flag.
