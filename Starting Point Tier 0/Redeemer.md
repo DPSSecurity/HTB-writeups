@@ -2,7 +2,7 @@
 Category/Tags: Redis, Vulnerability Assessment, Databases, Reconnaissance, and Anonymous/Guest Access
 
 ## Description:
-This is the fourth box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to connect a Redis database to obtain the flag. This box will require reading Redis docs.<br>
+This is the fourth box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to connect to a Redis database to obtain the flag. This box will require reading Redis docs.<br>
 
 ## Solution:
 ### **Task 1**:
