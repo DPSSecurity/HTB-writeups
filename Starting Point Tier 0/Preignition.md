@@ -2,7 +2,7 @@
 Category/Tags: Web, Custom Applications, Apache, Reconnaissance, Web Site Structure Directory, and Default Credentials.
 
 ## Description:
-This is the sixth (and second VIP!) box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to 
+This is the sixth (and second VIP!) box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to enumerate a website's directories to find the correct page so we login to obtain the flag.
 
 ## Solution:
 ### **Task 1**:
