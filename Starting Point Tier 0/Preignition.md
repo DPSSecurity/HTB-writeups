@@ -13,7 +13,7 @@ Answer:`dir busting`
 What switch do we use for nmap's scan to specify that we want to perform version detection?<br>
 I've explained this before in the [Fawn box writeup](https://github.com/DPSSecurity/HTB-writeups/blob/main/Starting%20Point%20Tier%200/Fawn.md).
 
-Answer:`-sV`
+Answer: `-sV`
 
 ### **Task 3**:
 What does Nmap report is the service identified as running on port 80/tcp?<br>
@@ -23,38 +23,38 @@ Run:
 >-sT = TCP scan
 >-sV = service version number
 
-Answer:`-sV`
+Answer: `-sV`
 
 ### **Task 4**:
 What server name and version of service is running on port 80/tcp?<br>
 Our previous scan returns this information in the `VERSION` column.
 
-Answer:`nginx 1.14.2`
+Answer: `nginx 1.14.2`
 
 ### **Task 5**:
 What switch do we use to specify to Gobuster we want to perform dir busting specifically?<br>
 Run:
 `gobuster -h` to view the flags. You may need to install Gobuster to proceed.
 
-Answer:`dir`
+Answer: `dir`
 
 ### **Task 6**:
 When using gobuster to dir bust, what switch do we add to make sure it finds PHP pages? <br>
 Run:
 `gobuster dir -h` to view the `dir` flags.
 
-Answer:`-x php`
+Answer: `-x php`
 
 ### **Task 7**:
 What page is found during our dir busting activities?<br>
 Run:
 `gobuster dir -w /usr/share/wordlists/rockyou.txt -u <IP address of machine>` to dir bust the website. We will start with common.txt. because it's a smaller, faster wordlist.
 
-Answer:`admin.php`
+Answer: `admin.php`
 
 ### **Task 8**:
 What is the HTTP status code reported by Gobuster for the discovered page?<br>
-Answer:`200`
+Answer: `200`
 
 ### **Flag**:
 Go to the webpage by pasting the machine's IP address into your browser and adding `/admin.php` to the end of the URL.<br>
