@@ -19,9 +19,9 @@ Answer: `-sV`
 What does Nmap report is the service identified as running on port 80/tcp?<br>
 Run:
 `nmap -v -sT -sV <IP address of machine>`
->-v = verbose
->-sT = TCP scan
->-sV = service version number
+>-v = verbose<br>
+>-sT = TCP scan<br>
+>-sV = service version number<br>
 
 Answer: `-sV`
 
