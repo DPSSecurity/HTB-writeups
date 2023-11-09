@@ -51,4 +51,4 @@ Answer: `show collections`
 
 ### **Task 7**:
 What is the command used for dumping the content of all the documents within the collection named flag in a format that is easy to read? <br>
-Answer: `db.mycoll.find().pretty()`
+Answer: `db.mycoll.find()`
