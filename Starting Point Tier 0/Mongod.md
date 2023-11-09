@@ -51,7 +51,7 @@ In the previous task, notice the database named: `sensitive_information`<br>
 Select the database:
 `use sensitive_information`<br>
 Then, run the command to list collections in a database:
-`show collection`<br>
+`show collections`<br>
 
 Answer: `show collections`
 
