@@ -2,7 +2,7 @@
 Category/Tags: MongoDB, Web, Databases, Reconnaissance, Misconfiguration, and Anonymous/Guest Access
 
 ## Description:
-This is the sixth (and third VIP!) box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .
+This is the sixth (and third VIP!) box Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to connect to a Mongo database to obtain the flag.
 
 ## Solution:
 ### **Task 1**:
@@ -47,8 +47,17 @@ Answer: `show dbs`
 
 ### **Task 6**:
 What is the command used for listing out the collections in a database? (No need to include a trailing ;)<br>
+In the previous task, notice the database named: `sensitive_information`<br>
+Select the database:
+`use sensitive_information`<br>
+Then, run the command to list collections in a database:
+`show collection`<br>
+
 Answer: `show collections`
 
 ### **Task 7**:
-What is the command used for dumping the content of all the documents within the collection named flag in a format that is easy to read? <br>
-Answer: `db.mycoll.find()`
+What is the command used for dumping the content of all the documents within the collection named flag in a format that is easy to read?<br>
+Answer: `db.flag.find().pretty()`
+
+### **Flag**:
+The previous answer/command will reveal the flag.
