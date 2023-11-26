@@ -2,7 +2,7 @@
 Category/Tags: Web, Common Applications, Jenkins, Java, Reconnaissance, Remote Code Execution, and Default Credentials
 
 ## Description:
-This is the tenth box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .
+This is the ninth box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .
 
 ## Solution:
 ### **Task 1**:
