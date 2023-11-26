@@ -2,7 +2,7 @@
 Category/Tags: FTP, PostgreSQL, Reconnaissance, Tunneling, Password Spraying, Port Forwarding, Anonymous/Guest Access, and Clear Text Credentials
 
 ## Description:
-This is the ninth box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .
+This is the eighth box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .
 
 ## Solution:
 ### **Task 1**:
