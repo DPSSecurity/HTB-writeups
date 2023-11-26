@@ -2,7 +2,7 @@
 Category/Tags: Vulnerability Assessment, Databases, MySQL, SQL, Reconnaissance, and Weak Credentials
 
 ## Description:
-This is the second box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .<br>
+This is the second box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to access a SQL database to obtain the flag.<br>
 
 ## Solution:
 ### **Task 1**:
@@ -39,7 +39,7 @@ Answer: `*`
 In SQL, what symbol do we need to end each query with?<br>
 Answer: `;`
 
-### **Task 6**:
+### **Task 7**:
 There are three databases in this MySQL instance that are common across all MySQL instances. What is the name of the fourth that's unique to this host?<br>
 Run:
 `mysql -u root -h <IP address of machine>`<br>
