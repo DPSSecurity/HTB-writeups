@@ -6,7 +6,7 @@ This is the second box in Starting Point Tier 2 Hack The Box presents aspriring 
 
 ## Solution:
 ### **Task 1**:
-WWith what kind of tool can intercept web traffic?<br>
+With what kind of tool can intercept web traffic?<br>
 
 Answer: ``
 
