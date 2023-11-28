@@ -2,7 +2,7 @@
 Category/Tags: Web, Network, Custom Applications, Protocols, Apache, FTP, Reconnaissance, Web Site Structure Discovery, Clear Text Credentials, and Anonymous/Guest Access
 
 ## Description:
-This is the third box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to .
+This is the third box in Starting Point Tier 1 Hack The Box presents aspriring cybersecurity professionals with. In this box, we are asked to download files from a FTP server to breach a web server.
 
 ## Solution:
 ### **Task 1**:
