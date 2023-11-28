@@ -8,17 +8,18 @@ This is the fourth box in Starting Point Tier 1 Hack The Box presents aspriring 
 ### **Task 1**:
 When visiting the web service using the IP address, what is the domain that we are being redirected to?<br>
 
-Answer: ``
+Answer: `unika.htb`
 
 ### **Task 2**:
 Which scripting language is being used on the server to generate webpages?<br>
+Run: `nmap -sT -A -sC <IP address of machine>`.
 
-Answer: ``
+Answer: `php`
 
 ### **Task 3**:
 What is the name of the URL parameter which is used to load different language versions of the webpage?<br>
 
-Answer: ``
+Answer: `page`
 
 ### **Task 4**:
 Which of the following values for the `page` parameter would be an example of exploiting a Local File Include (LFI) vulnerability: "french.html", "//10.10.14.6/somefile", "../../../../../../../../windows/system32/drivers/etc/hosts", "minikatz.exe"<br>
