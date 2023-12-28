@@ -45,7 +45,7 @@ Run: `ls` to view the files present.
 
 Then run: `GET allowed.userlist` and `GET allowed.`
 
-Finally, run 1`EXIT` and  `cat allowed.userlist` to view the user list.
+Finally, run `EXIT` and  `cat allowed.userlist` to view the user list.
 
 Answer: `admin`
 
